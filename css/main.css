@@ -1,0 +1,45 @@
+.nav ul {
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center; }
+.nav li {
+  float: center;
+  display: inline;
+  padding: 5px; }
+
+body {
+  background: -webkit-linear-gradient(orange, blue) left repeat;
+  background: linear-gradient(orange, blue) left repeat; }
+
+p {
+  background-color: lime;
+  font-style: comic, 12px;
+  text-align: center; }
+
+h1 {
+  background: #b2b200;
+  text-align: center; }
+@font-face {
+  h1 {
+    font-family: "source-sans-pro";
+    font-style: normal;
+    font-weight: bold;
+    src: url("/fonts/source-sans-pro/source-sans-pro-bold.eot?#iefix") format("embedded-opentype"), url("/fonts/source-sans-pro/source-sans-pro-bold.woff2") format("woff2"), url("/fonts/source-sans-pro/source-sans-pro-bold.woff") format("woff"), url("/fonts/source-sans-pro/source-sans-pro-bold.ttf") format("truetype"), url("/fonts/source-sans-pro/source-sans-pro-bold.svg#source-sans-pro") format("svg"); } }
+@media (min-width: 768px) {
+  h2 {
+    background: #b2b200;
+    display: inline-block;
+    border: 5px dotted black; } }
+.button {
+  font-size: 15px; }
+
+.box {
+  width: 300px;
+  padding: 25px;
+  margin: 25px;
+  background-color: red;
+  background-image: -webkit-linear-gradient(red, white);
+  background-image: linear-gradient(red, white);
+  float: center; }
+
+/*# sourceMappingURL=main.css.map */

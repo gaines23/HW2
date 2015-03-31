@@ -1,0 +1,54 @@
+@import 'bourbon/bourbon';
+@import 'nav';
+
+$box-width: 30px;
+
+@mixin lime($opacity)
+{
+	background-color: rgba(0, 255, 0, 1);
+}
+
+body{
+	@include background(linear-gradient(orange, blue) left repeat);
+
+}
+
+p{
+	@include lime(.5);
+	font-style: comic, 12px;
+	text-align: center;
+	:hover {
+  	
+	}
+}
+
+h1{
+	@include font-face("source-sans-pro", "/fonts/source-sans-pro/source-sans-pro-bold", bold);
+	background: shade(yellow, 30%);
+	text-align: center;
+}
+
+@media (min-width: 768px){
+h2{
+	background: shade(yellow, 30%);
+	display: inline-block;
+	border: 5px dotted black;
+}
+}
+	
+
+.button{
+	font-size: 15px;
+}
+
+.box{
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
+	@include linear-gradient(red, white);
+	float: center;	
+	
+}
+
+
+
